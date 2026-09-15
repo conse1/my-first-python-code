@@ -29,3 +29,19 @@ print(lux_inventory)
 ## Goals
 - Mastering core Python logic (loops, lists, and conditions).
 - Next step: Refactoring this project using `for` loops and `range()`.
+
+
+
+---
+
+## Project 2: Interactive Wallet & Balance Manager (Python)
+
+A clean and simple script designed to simulate financial transactions, multiplier events, and budget deductions. This code demonstrates variable overriding and fundamental arithmetic operations in Python.
+
+### Features
+- **Variable Overriding**: Modifies the same variable (`my_balance`) over multiple steps to track state changes.
+- **Arithmetic Logic**: Implements multiplication (`*`) for double-balance events and subtraction (`-`) for purchase tracking.
+- **Console Feedback**: Uses sequence-based `print()` logs to output step-by-step wallet balance changes.
+
+### Future Improvement
+- Refactoring with compound assignment operators (`*= 2` and `-= 1500`) to match professional clean code practices.

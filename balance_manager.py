@@ -1,7 +1,9 @@
-my_balance = 5000
-my_balance = my_balance *2
-print(my_balance)
-my_balance = my_balance -1500
-print(my_balance)
-my_balance = my_balance -259
-print(my_balance)
+walmart_shelf = ["Grape", "Cream-Soda", "Creamy Coconut", "Strawberries-Cream"]
+
+for soda in walmart_shelf:
+    if soda == "Creamy Coconut":
+        print("out of stock")
+    else:
+        print(soda)
+for i in range(3):
+    print("Took a delicious sip of Strawberries & Cream while watching DangerLyoha")

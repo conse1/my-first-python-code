@@ -71,3 +71,16 @@ A clean script designed to simulate financial transactions, multiplier events, a
 - **Variable Overriding**: Modifies the same variable (`my_balance`) over multiple steps to track state changes.
 - **Arithmetic Logic**: Implements multiplication (`*`) for double-balance events and subtraction (`-`) for purchase tracking.
 - **Console Feedback**: Uses sequence-based `print()` logs to output step-by-step wallet balance changes.
+
+
+---
+
+## 3. Chat Moderation Macro Utility
+
+An internal chat moderation macro utility developed based on technical specifications for Apple's system infrastructure.
+
+### Features
+* **Custom Functions:** Uses a dedicated `def send_alert()` macro function to handle system status outputs efficiently without code duplication.
+* **Infinite Stream Processing:** Processes an endless queue of incoming usernames using a structured `while True` loop execution.
+* **Input Case Normalization:** Automatically forces lower-case conversion via string methods to ensure system commands remain case-insensitive.
+* **Safe Termination Sequence:** Implements a direct exit route upon receiving the baseline control sequence (`stop`).
